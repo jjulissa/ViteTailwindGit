@@ -3,7 +3,7 @@
 export function Button({ color, children }) {
   return (
     <button
-      className={`p-2 rounded-lg transition duration-200 ${color === 'blue' ? 'bg-red-500 hover:bg-blue-600' : 'bg-green-500 hover:bg-green-600'}`}
+      className={`p-2 rounded-lg transition duration-200 ${color === 'blue' ? 'bg-blue-500 hover:bg-blue-600' : 'bg-green-500 hover:bg-green-600'}`}
     >
       {children}
     </button>
