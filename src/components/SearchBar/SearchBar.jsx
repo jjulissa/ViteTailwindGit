@@ -5,7 +5,7 @@ function SearchBar({ onSearch }) {
         type="text"
         placeholder="Buscar productos..."
         onChange={(e) => onSearch(e.target.value)}
-        className="border p-2 rounded-lg m-[5%] w-[80%]"
+        className="border p-2 rounded-lg m-[5%] w-[90%]"
       />
     );
   }

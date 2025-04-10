@@ -27,19 +27,19 @@ function App() {
     <> 
     <Header /> 
 
-      <div>
-        <SearchBar onSearch={setSearchQuery} />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-[2%]">
-          {filteredProducts.length ? (
-            filteredProducts.map((producto) => (
-              <ProductCard key={producto.id} producto={producto} />
-            ))
-          ) : (
-            <p>No hay resultados</p>
-          )}
-        </div>
-      </div> 
-
+        <div>
+          <SearchBar onSearch={setSearchQuery} />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-[2%]">
+            {filteredProducts.length ? (
+              filteredProducts.map((producto) => (
+                <ProductCard key={producto.id} producto={producto} />
+              ))
+            ) : (
+              <p>No hay resultados</p>
+            )}
+          </div>
+        </div>  
+        
       <Footer /> 
       
     </>
