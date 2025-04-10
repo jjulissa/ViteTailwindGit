@@ -1,4 +1,3 @@
-// SearchBar.jsx
 function SearchBar({ onSearch }) {
     return (
       <input

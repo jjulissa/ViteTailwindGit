@@ -1,7 +1,6 @@
-// App.jsx
 import { useState } from 'react';
 import ProductCard from './components/ProductCard/ProductCard.jsx';
-import SearchBar from './SearchBar/SearchBar.jsx';
+import SearchBar from './components/SearchBar/SearchBar.jsx';
 
 const productos = [
   { id: 1, nombre: "Camiseta", precio: 19.99, imagen: "https://picsum.photos/150" },
